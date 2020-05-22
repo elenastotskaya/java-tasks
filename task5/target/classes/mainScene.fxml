@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TilePane prefWidth="176" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jdbc.MainSceneController">
+    <Button fx:id="buttonInit" maxWidth="100" onAction="#clickedInit" text="Initialize" />
+    <Button fx:id="buttonAdd" maxWidth="100" onAction="#clickedAdd" text="Add" />
+    <Button fx:id="buttonDel" maxWidth="100" onAction="#clickedDelete" text="Delete" />
+    <Button fx:id="buttonShow" maxWidth="100" onAction="#clickedShow" text="Show all" />
+    <Button fx:id="buttonPrice" maxWidth="100" onAction="#clickedPrice" text="Show price" />
+    <Button fx:id="buttonChangePrice" maxWidth="100" onAction="#clickedChange" text="Change price" />
+    <Button fx:id="buttonFilter" maxWidth="100" onAction="#clickedFilter" text="Filter by price" />
+</TilePane>
