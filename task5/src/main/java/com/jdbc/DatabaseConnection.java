@@ -8,7 +8,7 @@ public class DatabaseConnection implements AutoCloseable {
     private Connection connection;
     private static DatabaseConnection instance;
     private static final String USERNAME = "elena";
-    private static final String PASSWORD = "ATdN160tf12";
+    private static final String PASSWORD = "elena";
     private static final String URL = "jdbc:mysql://localhost:3306/mysql?serverTimezone=Europe/Moscow";
 
     private DatabaseConnection() throws SQLException {
